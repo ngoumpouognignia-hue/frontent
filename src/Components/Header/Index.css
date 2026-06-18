@@ -1,0 +1,17 @@
+body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+
+.info-bar { background: var(--rouge); 
+    color: var(--blanc); 
+    text-align: center;
+     padding: 8px; 
+     font-size: 0.85rem; }
+ nav { display: flex;
+    justify-content: space-between;
+    padding: 20px 10%; 
+    background: var(--blanc); 
+     align-items: center; 
+    transition: 0.3s; }
+.logo { font-weight: bold;
+     font-size: 1.5rem; 
+     color: var(--bleu); }
+.menu a { text-decoration: none; color: var(--noir); margin-left: 20px; font-weight: 500; }

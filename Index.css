@@ -1,0 +1,62 @@
+ :root {
+    --bleu: #003366;
+    --rouge: #CC0000;
+    --blanc: #ffffff;
+    --noir: #20073f;
+}
+
+body { margin: 0; font-family: 'Segoe UI', sans-serif; }
+
+/* Info Bar */
+.info-bar { background: var(--rouge); color: var(--blanc); text-align: center; padding: 8px; font-size: 0.85rem; }
+
+/* Navigation */
+nav { display: flex; justify-content: space-between; padding: 20px 10%; background: var(--blanc); align-items: center; transition: 0.3s; }
+.logo { font-weight: bold; font-size: 1.5rem; color: var(--bleu); }
+.menu a { text-decoration: none; color: var(--noir); margin-left: 20px; font-weight: 500; }
+
+/* Hero Section */
+.hero { 
+    background: linear-gradient(rgba(145, 41, 154, 0.6), rgba(4, 56, 108, 0.6)), url('background.jpg');
+    background-size: cover;
+    display: flex; justify-content: space-between; align-items: center; padding: 80px 10%; min-height: 400px; color: var(--blanc);
+}
+.content { max-width: 50%; }
+
+/* Formulaire */
+.login-card { background: var(--noir); padding: 30px; border-radius: 8px; width: 300px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+input { width: 100%; margin: 10px 0; padding: 12px; border: 1px solid mediumorchid; border-radius: 4px; box-sizing: border-box; }
+button { background: var(--rouge); color: white; width: 100%; padding: 12px; border: none; cursor: pointer; font-weight: bold; border-radius: 4px; }
+button:hover { opacity: 0.9; }
+
+.site-footer {
+    background-color: var(--noir);
+    color: var(--blanc);
+    padding: 50px 10% 20px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-section { flex: 1; min-width: 250px; }
+.footer-section h3 { color: var(--bleu); }
+.footer-section h4 { border-bottom: 2px solid var(--rouge); display: inline-block; padding-bottom: 5px; }
+
+.footer-section ul { list-style: none; padding: 0; }
+.footer-section ul li a { color: #ccc; text-decoration: none; font-size: 0.9rem; }
+.footer-section ul li a:hover { color: var(--blanc); }
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 0.8rem;
+    color: #888;
+
+};
