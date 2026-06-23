@@ -20,11 +20,14 @@ function chargerSession() {
 }
 
 // Gestion de la déconnexion
-document.getElementById('btn-deconnexion').addEventListener('click', () => {
-    if(confirm("Voulez-vous vraiment vous déconnecter ?")) {
-        window.location.href = "login.html"; // Redirection vers la page de login
-    }
-});
+const btnDeconnexion = document.getElementById('btn-deconnexion');
+if (btnDeconnexion) {
+    btnDeconnexion.addEventListener('click', () => {
+        if (confirm("Voulez-vous vraiment vous déconnecter ?")) {
+            window.location.href = "/Index.html";
+        }
+    });
+}
 
 // Initialisation au chargement
 window.onload = chargerSession;

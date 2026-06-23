@@ -1,7 +1,7 @@
 async function loadIncludes() {
     const includes = [
-        { selector: '#header', url: 'src/Components/Header/Index.html' },
-        { selector: '#footer', url: 'src/Components/Footer/Index.html' }
+        { selector: '#header', url: '/src/Components/Header/Index.html' },
+        { selector: '#footer', url: '/src/Components/Footer/Index.html' }
     ];
 
     await Promise.all(
