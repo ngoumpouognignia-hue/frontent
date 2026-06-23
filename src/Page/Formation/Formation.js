@@ -1,10 +1,10 @@
 // Données simulées de la session utilisateur
-const userSession = {
+ const userSession = {
     nom: "Jean Dupont",
-    filiere: "Développement Web",
-    formation: "Certification Fullstack",
-    statutInscription: "Confirmé"
-};
+     filiere: "Développement Web",
+     formation: "Certification Fullstack",
+     statutInscription: "Confirmé"
+ };
 
 // Afficher les infos de session
 function chargerSession() {
@@ -22,7 +22,7 @@ function chargerSession() {
 // Gestion de la déconnexion
 document.getElementById('btn-deconnexion').addEventListener('click', () => {
     if(confirm("Voulez-vous vraiment vous déconnecter ?")) {
-        window.location.href = "login.html"; // Redirection vers la page de login
+        window.location.href = "Index.html"; // Redirection vers la page de login
     }
 });
 

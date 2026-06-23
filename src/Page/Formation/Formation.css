@@ -1,15 +1,13 @@
-body { margin: 0; font-family: 'Segoe UI', sans-serif; color: #333; }
+ body { margin: 0; font-family: 'Segoe UI', sans-serif; color: #333; }
 
 .top-bar { background-color: #d35400; color: white; text-align: center; padding: 8px; font-size: 0.9rem; }
 
-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 50px; background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 
-.logo { font-weight: bold; font-size: 1.4rem; color: #2980b9; }
 
-nav ul { list-style: none; display: flex; gap: 20px; align-items: center; }
+
 nav a { text-decoration: none; color: #333; font-weight: 500; }
 
-.hero { height: 300px; background: linear-gradient(135deg, #2c3e50, #2980b9); color: white; display: flex; align-items: center; padding-left: 50px; }
+.hero { height: 300px; background: linear-gradient(135deg, #5798da, #86119e); color: white; display: flex; align-items: center; padding-left: 50px; }
 
 .logout-btn { background: #c0392b; color: white; border: none; padding: 8px 15px; cursor: pointer; border-radius: 4px; }
 
