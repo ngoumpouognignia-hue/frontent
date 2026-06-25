@@ -18,5 +18,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const yearSpan = document.querySelector('.footer-bottom p');
     const currentYear = new Date().getFullYear();
     yearSpan.innerHTML = &copy; ${currentYear} ACADEMY-TECH. Tous droits réservés.;
-}); 
-}
+})
+};

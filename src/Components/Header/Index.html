@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="Index.css">
+<link rel="stylesheet" href="/src/Components/Header/Index.css">
 <header>
     <div class="info-bar">Prochaine Rentrée : 22 Juin 2026 | Clôture des inscriptions : 31 Mai 2026</div>
 
@@ -5,11 +7,26 @@
         <div class="logo">
             <h2>PROMILLYS ACADEMY</h2>
         </div>
-        <div class="menu">
-            <a href="#">Accueil</a>
-            <a href="src/page/Formation/Formation.html">Nos Formations</a>
-            <a href="#">Admissions</a>
-            <a href="src/page/Contacts/contact.html">Contact</a>
-        </div>
+        <!-- <div class="menu">
+            <span  id="nav-accueil" style="cursor: pointer; text-decoration: underline;">Accueil</span>
+            <span class="nav-filieres" style="cursor: pointer; text-decoration: underline;">Filières</span>
+            <span class="nav-session">Sessions</span>
+            
+           <span class="nav-contact">contact</span>
+
+        </div> -->
+
+            <nav class="menu-navigation">
+                <span onclick="allerAccueil('../../../Index.html')">Accueil</span>
+                <span onclick="allerFiliere('/src/Page/Filiere/Filiere.html')">Filière</span>
+                <span onclick="allerSession('Session.html')">Session</span>
+                <span onclick="allerContact('/src/Page/Contact/contact.html')">Contact</span>
+            </nav>
+
+
+        <button class="btn-connexion" >Déconnexion<button>
     </nav>
+
 </header>
+
+<script src="Index.js"></script>

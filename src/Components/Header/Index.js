@@ -5,3 +5,28 @@ window.addEventListener('scroll', () => {
     } else {
         nav.style.boxShadow = 'none';
     }})
+    document.getElementById(btn-connexion).addEventListener("click",function(){
+        window.location.href = "/src/page/Login/Login.html";
+    });
+   
+    
+
+  
+function allerIndex(page) {
+    // Cette ligne ordonne au navigateur de charger la nouvelle page
+    window.location.href = Index.html;
+}
+function allerFilieres(page) {
+    // Cette ligne ordonne au navigateur de charger la nouvelle page
+    window.location.href = 'Filiere.html';
+}
+
+ function allerAccueil(page) {
+    
+    window.location.href = 'Session.html';
+}
+
+function allerContact(page) {
+    // Cette ligne ordonne au navigateur de charger la nouvelle page
+    window.location.href = 'Contact.html';
+}

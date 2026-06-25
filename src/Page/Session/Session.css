@@ -1,0 +1,40 @@
+.sessions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.session-card {
+    background: rgb(179, 225, 225);
+    border: 1px solid #e2e8f0;
+    border-radius: 20px;
+    padding: 25px;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+}
+
+.session-card:hover {
+    border-color:rgb(53, 15, 192);
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.15);
+}
+
+.badge {
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.status-active { background: #e5dcfc; color: #166534; }
+.status-upcoming { background: #fef3c7; color: #92400e; }
+
+.meta {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #111317;
+    border-top: 1px solid #f1f5f9;
+    padding-top: 15px;
+}

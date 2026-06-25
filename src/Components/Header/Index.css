@@ -1,6 +1,6 @@
 .info-bar {
-    background: var(--rouge);
-    color: var(--blanc);
+    background: orangered;
+    color: rgb(239, 234, 234);
     text-align: center;
     padding: 8px;
     font-size: 0.85rem;
@@ -10,15 +10,38 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 10%;
-    background: var(--blanc);
+    background: rgb(243, 173, 185);
     align-items: center;
     transition: 0.3s;
+}
+/* .menu {
+     display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    gap: 15px; 
+    
+
+} */
+
+
+.menu-navigation span {
+    margin-right: 20px;
+    cursor: pointer; /* Change la souris en main pour montrer que c'est cliquable */
+    color: blue;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.menu-navigation span:hover {
+    color: darkblue; /* Effet au survol */
+    font-weight: bold;
 }
 
 .logo {
     font-weight: bold;
     font-size: 1.5rem;
-    color: var(--bleu);
+    color: blue;
+    
 }
 
 .menu a {
@@ -26,4 +49,12 @@ nav {
     color: var(--noir);
     margin-left: 20px;
     font-weight: 500;
+}
+.btn-connexion{
+
+     background-color: orangered;
+    color: rgb(246, 245, 249); 
+    padding: 10px; 
+    border: none; 
+    cursor: pointer; 
 }
