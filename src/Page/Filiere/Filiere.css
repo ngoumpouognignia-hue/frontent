@@ -12,10 +12,7 @@
      color: white;
       display: flex; 
      align-items: center; 
-     padding-left: 5px; 
-    margin-left: 1%;
-    margin-right: 2%;
-
+     
     }
      
 
@@ -43,7 +40,7 @@
     --text: #1e293b;
 }
 
-body { font-family: 'Segoe UI', sans-serif; background: var(--bg); padding: 50px; } 
+body { font-family: 'Segoe UI', sans-serif; background: var(--bg);  } 
 
 .section-title { text-align: center; margin-bottom: 40px; color: var(--text); }
 

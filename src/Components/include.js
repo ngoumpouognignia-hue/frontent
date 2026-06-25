@@ -20,20 +20,20 @@ async function loadIncludes() {
 document.addEventListener('DOMContentLoaded', loadIncludes);
 
 
-  function allerAccueil(page) {
-    // Redirection immédiate
-    window.location.href = accueil;
-}
+  
 function allerIndex(page) {
     // Cette ligne ordonne au navigateur de charger la nouvelle page
-    window.location.href = Index.html;
+    window.location.href = 'Index.html';
 }
 function allerFilieres(page) {
-    // Cette ligne ordonne au navigateur de charger la nouvelle page
-    window.location.href = 'Filiere.html';
+      window.location.href = '/src/Components/Page/Filiere.html';
+}
+
+ function allerSession(page) {
+    window.location.href = '/src/Components/Page/Session.html';
 }
 
 function allerContact(page) {
     // Cette ligne ordonne au navigateur de charger la nouvelle page
-    window.location.href = 'Contact.html';
+    window.location.href = '/src/Components/Page/Contact.html';
 }

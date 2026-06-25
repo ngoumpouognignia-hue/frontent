@@ -9,7 +9,7 @@ body { margin: 0; font-family: 'Segoe UI', sans-serif; }
 
 /* Hero Section */
 .hero { 
-    background: linear-gradient(rgba(81, 73, 197, 0.6), rgba(14, 4, 108, 0.6)), url('background.jpg');
+    background: linear-gradient(rgba(81, 73, 197, 0.6), rgba(232, 82, 28, 0.6)), url('background.jpg');
     background-size: cover;
     display: flex; justify-content: space-between; align-items: center; padding: 80px 10%; min-height: 400px; color: var(--blanc);
 }
