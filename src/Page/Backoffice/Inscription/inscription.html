@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/Components/Sidebar/Sidebar.css">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Inscription</title>
+</head>
+<body>
+<div id="sidebar"></div>
+
+    <!-- <div class="container">
+        <h1>Inscription</h1>
+        <form id="signupForm">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" required>
+            
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">S'inscrire</button>
+        </form>
+        <p id="message" class="hidden"></p>
+    </div> -->
+
+    <div class="container">
+        <h2>Gestion des Inscriptions</h2>
+        <button onclick="ouvrirModal()" class="btn-add">+ Ajouter</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom / Prénom</th>
+                    <th>Date</th>
+                    <th>Statut</th>
+                    <th>Montant</th>
+                    <th>Mode</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                </tbody>
+        </table>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span onclick="fermerModal()" class="close">&times;</span>
+            <h3 id="modalTitle">Nouvelle Inscription</h3>
+            <input type="text" id="nom" placeholder="Nom">
+            <input type="text" id="prenom" placeholder="Prénom">
+            <input type="text" id="montant" placeholder="Montant">
+            <input type="date" id="date" placeholder="Date">
+            <input type="text" id="mode" placeholder="Mode de paiement">
+            <button onclick="sauvegarder()" class="btn-save">Enregistrer</button>
+        </div>
+    </div>
+
+
+
+    <script src="inscription.js"></script>
+    <script src="/src/Components/Sidebar/Sidebar.js"></script>
+    <script src="/src/Components/include.js"></script>
+</body>
+</html>

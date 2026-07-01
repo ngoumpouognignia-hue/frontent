@@ -19,4 +19,4 @@ document.addEventListener("DOMContentLoaded", () => {
     const currentYear = new Date().getFullYear();
     yearSpan.innerHTML = &copy; ${currentYear} ACADEMY-TECH. Tous droits réservés.;
 }); 
-}
+};

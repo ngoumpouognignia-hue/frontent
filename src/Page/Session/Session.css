@@ -1,10 +1,15 @@
-.hero { height: 300px;
-     background: linear-gradient(135deg, #1553d8, orangered); 
-     color: white;
-      display: flex; 
+.hero { background-image: url(/src/Images/img6.avif);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+     justify-content: space-between;
+    /* background-blend-mode: darken; */
      align-items: center; 
-     
-
+     padding: 70px 1%; 
+     min-height: 200px; 
+     color: white;
     }
  h1{
     text-align: center;
@@ -39,7 +44,7 @@
 
 .session-card:hover {
     border-color:rgb(40, 62, 188);
-    box-shadow: 0 10px 30px orangered;
+    box-shadow: 0 10px 30px rgb(14, 11, 10);
 }
 
 .badge {
