@@ -15,7 +15,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
 });
 
 let inscriptions = [
-    { id: 1, date: '2026-01-15', statut: 'en_attente', montant: 50000, mode: 'Mobile Money' },
+    { id: 1,nom:'layer',prenom:'line', date: '2026-01-15', statut: 'en_attente', montant: 50000, mode: 'Mobile Money' },
     { id: 2, date: '2026-01-16', statut: 'en_attente', montant: 75000, mode: 'Carte Bancaire' }
 ];
 

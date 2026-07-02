@@ -47,11 +47,12 @@
     --text: #1e293b;
 }
 
-body { font-family: 'Segoe UI', sans-serif; background: var(--bg);  } 
+body { font-family: 'Segoe UI', sans-serif; background: rgb(3, 0, 5);  } 
 
-.section-title { text-align: center; 
+.section-title {
+     text-align: center; 
     margin-bottom: 40px; 
-    color: var(--text); 
+    color: white; 
     text-decoration: underline;
 }
 
@@ -65,17 +66,18 @@ body { font-family: 'Segoe UI', sans-serif; background: var(--bg);  }
 }
 
 .card {
-    background: rgb(176, 230, 229);
+    background: rgb(3, 61, 61);
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
+    color: #f8fafc;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 25px -5px rgb(21, 10, 7);
+    box-shadow: 0 20px 25px -5px rgb(254, 252, 251);
 }
 
 .card-icon { font-size: 3rem; margin-bottom: 15px; }
